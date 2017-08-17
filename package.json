@@ -1,28 +1,32 @@
 {
-  "name": "react-native-parallax-view",
-  "version": "2.0.5",
-  "description": "Parallax view for vertical scrollview with a header image and header content",
+  "name": "react-native-parallax-cached-image-view",
+  "version": "1.0.0",
+  "description": "Parallax view for vertical scrollview with a cachable header image and header content",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lelandrichardson/react-native-parallax-view.git"
+    "url": "https://github.com/BigPun86/react-native-parallax-view.git"
   },
   "keywords": [
     "react",
     "react-native",
     "react-component",
-    "parallax"
+    "parallax",
+    "cached-images",
+    "blur-image"
   ],
-  "author": "Leland Richardson",
+  "author": "Adel Bruno Grimm",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lelandrichardson/react-native-parallax-view/issues"
+    "url": "https://github.com/BigPun86/react-native-parallax-view.git/issues"
   },
-  "homepage": "https://github.com/lelandrichardson/react-native-parallax-view",
+  "homepage": "https://github.com/BigPun86/react-native-parallax-view.git",
   "dependencies": {
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-img-cache": "^1.4.0",
     "react-native-scrollable-mixin": "^1.0.1"
   },
   "peerDependencies": {
